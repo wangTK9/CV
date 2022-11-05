@@ -257,6 +257,18 @@ color: #fff;
   padding-left: 20px;
   margin-bottom: 50px;
 }
+.footer__form .submit {
+
+  background: radial-gradient(circle, rgba(131,186,217,1) 17%, rgba(148,233,222,1) 100%);
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 0;
+  line-height: 60px;
+  color: #333;
+}
+
 
 
 
