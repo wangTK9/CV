@@ -1,0 +1,426 @@
+@media (max-width: 739px) {
+
+/* base */
+
+.header {
+    height: 50em;
+    width: 100%;
+   
+}
+
+
+
+.about {
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60em;
+    width: 100%;
+   
+}
+
+
+.nav {
+    height: 43.75em;
+    width: 7.5em;
+    background-color: rgb(46, 223, 40);
+    position: fixed;
+    top: 0;
+    border: solid;
+    transform: translateX(0%);
+    transition:  transform linear 0.2s ;
+}
+.about  {
+    padding: 1em;
+    height: 64em;
+    width: 100%;
+
+}
+.service {
+    padding: 1em;
+    height: 122em;
+    width: 100%;
+  
+}
+
+.exp {
+   padding: 1em;
+    height: 76em;
+    width: 100%;
+
+}
+.work {
+   padding: 2em;
+    height: 48em;
+    width: 100%;
+   
+}
+.footer {
+   padding: 1em;
+    height: 56em;
+    width: 100%;
+
+} 
+
+
+/* end */
+ 
+
+
+
+
+
+.overlay {
+    height: 4em;
+    background-color: aliceblue;
+    transform: translateY(-100%);
+    animation: FadeIn linear 0.5s;
+  }
+  .nav-overlay {
+    position: relative;
+   
+  }
+
+  .overlay-icon {
+  display: flex;
+
+    
+}
+
+  .overlay-icon a {    
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    line-height: 3.7em;
+    display:block;
+  }
+
+  .overlay-icon a:hover {
+    background-color: black;
+    color: #fff;
+  }
+  
+
+
+  .row-left {
+    margin-top: 11px;
+    width: 20px;
+    font-size: 25px;
+    /* margin-right: 0.3em; */
+  }
+
+ .header .intro {
+    /* background-color: #fff; */
+    height:  100%;
+    width: 100%;
+    /* margin: auto; */
+    margin-top: 10em; 
+}
+
+.header .social {
+    height: 2em;
+    width: 80%;
+    /* background-color: #fff; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 40px;
+
+   
+ }
+ 
+ .social .social-link {
+    margin-left: 1em;
+    margin-right: 1em;
+ }
+ 
+ .social .social-link a  {
+     margin-top: 1.5em;
+     color: #333;
+     font-size: 40px;   
+ }
+  
+
+
+
+
+.intro .hire {
+    height: 2em;
+    width: 8em;
+    margin-bottom: 100%;
+    line-height: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height: 2em;
+    text-align: center;
+    
+    border-radius: 30px;
+    font-size: 1.5em;  
+    background-color: black;
+    color: #fff;
+    
+}
+
+
+.intro .hire:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/* about */
+.about .my-pic {
+    padding-top: 1em;
+    height: 8em;
+    width: 100%;
+    
+}
+
+.about .my-pic img {
+    height: 9em;
+    width: 9em;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about .info {
+    padding-top: 4em;
+    height: 20em;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.about .info p {
+
+    font-size: 23px;
+   
+    
+}
+
+
+
+
+
+.about .info p {
+
+    font-size: 20px;
+    text-align: justify
+    
+}
+.info .but-download a {
+    display: block;
+    margin-top: 1em;
+    height: 3.5em;
+    width: 100%;
+    color: #fff;
+    border: solid;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 3.5em;
+    font-size: 17px;
+    text-decoration: none;
+    background-color: red;
+}
+
+
+    
+.about .skill {
+    padding: 0.5em;
+    height: 20em;
+    width: 100%;
+    margin-top: 7em;
+}
+
+.skill .progress-bar {
+    display: block;
+    padding-bottom: 2em;
+}
+
+
+.ser-head {
+    display: inline-block;
+    height: 2em;
+    font-size: 30px;
+    /* margin-left: 22px; */
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.service .ser {
+    height: 20em;
+    width: 90%;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2em;
+    /* margin-left: 50%;
+    transform: translateX(-50%); */
+}
+.service .ui {
+    background-color: rgb(108, 108, 229);
+}
+
+.service .web {
+  background-color: rgb(249, 215, 76);
+}
+.service .english {
+    background-color: rgb(249, 123, 139);
+}
+
+.service .ser:hover {
+    transform: translateY(-5%);
+    transition: all 0.4s ease-in-out;
+
+}
+
+
+.service .ser {
+    box-shadow: 15px 15px 8px 0px rgba(0,0,0,0.1);
+    height: 30em;
+    width: 95%;
+ 
+    border-radius: 20px;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-left: auto;
+    
+    
+}
+
+
+.ser-img {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    width: auto;
+    height: 120px;
+}
+
+
+.ser-1 {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.ser-2 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.contact-me {
+    width: 100%;
+ 
+    font-size: 22px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.exp-head {
+    margin-top: 3em;
+    margin-left: 20px;
+}
+
+.exp .edu {
+    height: 40em;
+    width: 100%;
+    background-color: #fff;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 18px 18px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    margin-bottom: 4em;
+}
+
+.exp-head {
+    font-size: 40px;
+    
+}
+.exp .edu {
+    height: 20em;
+    width: 95%;
+    background-color: #fff;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 18px 18px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    margin-bottom: 5em;
+   
+  }
+  
+  
+  .exp .edu img {
+    border-radius: 30px;
+    height: 20em;
+  }
+  
+ .footer__info {
+    height: 5em;
+    width: 100%;  
+ }
+
+  .footer__info .talk {
+    text-align: center;
+    font-size: 25px;
+  
+  
+   }
+   .footer__form .text__form {
+    border-radius: 30px;
+    border: solid 0px;
+    height: 60px;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1em;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 10px 9px 11px -3px rgba(0,0,0,0.1);
+ }  
+
+ .footer__form .mess {
+    border: 0px;
+    height: 10em;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgb(240, 240, 240);
+    font-size: 20px;
+    padding-bottom: 150px;
+    padding-left: 20px;
+    margin-bottom: 2em;
+ }
+ .footer__form .submit {
+
+    background: radial-gradient(circle, rgba(131,186,217,1) 17%, rgba(148,233,222,1) 100%);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+ }
+
+
+
+
+/* end */
+
+
+
+
+}

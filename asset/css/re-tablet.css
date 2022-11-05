@@ -1,0 +1,263 @@
+@media (min-width: 768px) and (max-width: 1024px)
+  {
+
+  .nav {
+    height: 100%;
+    width: 5rem;
+    background: rgb(131,186,217);
+    background: radial-gradient(circle, rgba(131,186,217,1) 17%, rgba(148,233,222,1) 100%);
+    position: fixed;
+    top: 0;
+    transition:  transform linear 0.2s ;
+    
+}
+.header .social  {
+  height: 2em;
+  width: 60%;
+  /* background-color: #fff; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  font-size: 50px;
+}
+
+ 
+.about {
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80em;
+  width: 100%;
+  margin-top: 2em;
+  /* background-color: rgb(43, 214, 17); */
+}
+
+.about .my-pic {
+  padding-top: 3em;
+  height: 10em;
+  width: 100%;
+ 
+}
+
+.about .my-pic img {
+  height: 10em;
+  width: 10em;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about .info {
+  padding-top: 7em;
+  padding-left: 2em;
+  padding-right: 2em;
+  position: relative;
+  height: 20em;
+  width: 100%;
+
+}
+
+.about .info p {
+
+  font-size: 30px;
+  text-align: justify;
+  
+}
+
+.info .but-download a {
+  display: block;
+  margin-top: 1em;
+  
+  height: 3em;
+  width: 12em;
+  color: #fff;
+  border: solid;
+  border-radius: 30px;
+  text-align: center;
+  line-height: 3em;
+  font-size: 20px;
+  text-decoration: none;
+  background-color: red;
+}
+
+.about .skill {
+  margin-top: 10em;
+  padding: 2em;
+  height: 30em;
+  width: 100%;
+  
+
+}
+.service {
+  padding: 2em;
+  height: 50em;
+  width: 100%;
+ 
+}
+
+.ser-head {
+  display: inline-block;
+  height: 2em;
+  margin-top: 10px;
+  font-size: 40px;
+
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.service .ui {
+  background-color: rgb(108, 108, 229);
+}
+
+.service .web {
+background-color: rgb(249, 215, 76);
+}
+.service .english {
+  background-color: rgb(249, 123, 139);
+}
+
+.service .ser {
+  height: 30em;
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 5em;
+  /* margin-left: 50%;
+  transform: translateX(-50%); */
+  
+}
+.service .ser:hover {
+  transform: translateY(-8%);
+  transition: all 0.4s ease-in-out;
+
+}
+
+
+.ser-img {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  width: auto;
+  height: 120px;
+}
+
+
+.ser-1 {
+margin-top: 40px;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+color: #fff;
+}
+
+.ser-2 {
+  font-size: 17px;
+  padding: 5px;
+}
+
+.exp {
+  padding: 2em;
+   height: 60em;
+   width: 100%;
+   margin-top: 4em;
+}
+.exp .edu {
+  height: 40em;
+  width: 90%;
+  background-color: #fff;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 4px 23px 7px rgba(0,0,0,0.1);
+  border-radius: 30px;
+}
+
+
+.contact-me {
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 23px;
+  margin-top: 50px;
+
+  
+}
+.exp {
+  padding: 2em;
+   height: 110em;
+   width: 100%;
+  
+}
+
+.exp-head {
+  margin-top: 100px;
+  margin-left: 45px;
+}
+
+.exp .edu {
+  height: 30em;
+  width: 90%;
+  background-color: #fff;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0px 4px 18px 18px rgba(0,0,0,0.1);
+  border-radius: 30px;
+  margin-bottom: 5em;
+}
+
+
+.exp .edu img {
+  border-radius: 30px;
+  height: 30em;
+
+}
+
+
+.footer {
+  padding: 2em;
+  height: 50em;
+  width: 100%;
+  
+} 
+
+.footer__info {
+  height: 6em;
+  margin-top: 0px;
+
+  
+}
+.footer__form .text__form {
+  border-radius: 30px;
+  border: solid 0px;
+  height: 60px;
+  width: 100%;
+  padding: 20px;
+  font-size: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  /* margin-bottom: 2em; */
+  background-color: rgb(240, 240, 240);
+  
+  box-shadow: 10px 9px 11px -3px rgba(0,0,0,0.1);
+}  
+
+.footer__form .mess {
+  border: 0px;
+  height: 10em;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  border-radius: 30px;
+  background-color: rgb(240, 240, 240);
+  font-size: 20px;
+  padding-bottom: 150px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+
+
+}

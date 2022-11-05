@@ -1,0 +1,42 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Rubik" sans-serif;
+
+  }
+  
+
+.header {
+    height: 60em;
+    width: 100%;
+   
+}
+
+.about {
+    padding: 5em;
+
+    height: 50em;
+    width: 100%;
+    
+}
+
+.service {
+    padding: 5em;
+    height: 60em;
+    width: 100%;
+
+}
+
+.exp {
+    padding: 5em;
+    height: 50em;
+    width: 100%;
+
+}
+
+
+.footer {
+    padding: 5em;
+    height: 50em;
+    width: 100%;
+
+} 

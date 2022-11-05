@@ -1,0 +1,202 @@
+@media (max-width: 1023px) {
+.icon-bar {
+   margin-left: 20px;
+   padding-top: 10px;
+   height: 30px;
+   width: 30px;
+   display: block;
+}
+      
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+       }
+  to   {
+    opacity: 1;
+      }
+}
+.grid.wide {
+  width: 100%;
+  margin: 0 auto;   
+}
+.mobile-input:checked ~ .overlay {
+  display: block;     
+  transform: translateY(0);
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+
+}
+
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+
+.sidebar .home1 {
+  margin-top: 100px;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: -17px;
+  right: -38px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.openbtn {
+  font-size: 40px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color:rgba(255, 255, 255,0);
+  color: #111;
+  padding: 10px 15px;
+  border: none;
+  display: block;
+}
+
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .overlay {
+  height: 7em;
+  width: 100%;
+  position: absolute;
+  background-color:	rgb(9, 1, 1);
+  animation: FadeIn linear 0.5s;
+  transform: translateY(-100%);
+  line-height:7em;
+  
+  } 
+
+.nav-text {
+  font-size: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  color: white;
+}
+  .overlay a {
+    display:block;
+
+    text-decoration: none;
+    text-align: center;
+  }
+ 
+  .nav-text a:hover {
+    background-color: aliceblue;
+    color: black;
+  } */
+/* .overlay .nav-overlay {
+  position: relative;
+  height: 100em;
+  width: 4em;
+  background-color: blue;
+  display: block;
+ 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* .overlay {
+        height: 4em;
+        background-color: aliceblue;
+        transform: translateY(-100%);
+        animation: FadeIn linear 0.5s;
+      }
+      .nav-overlay {
+        position: relative;
+       
+      }
+
+      .overlay-icon {
+      display: flex;
+      
+      
+        
+    }
+    
+      .overlay-icon a {    
+        text-align: center;
+        font-size: 25px;
+        text-decoration: none;
+        padding-left: 1em;
+        padding-right: 1em;
+        line-height: 2.2em;
+        display:block;
+      }
+    
+      .overlay-icon a:hover {
+        background-color: black;
+        color: #fff;
+      }
+      
+
+
+      .row-left {
+        margin-top: auto;
+        width: 40px;
+        font-size: 40px;
+        margin-right: 0.3em;
+      } */
+}
